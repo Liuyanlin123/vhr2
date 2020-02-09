@@ -9,6 +9,7 @@
         <module name="mailserver" />
         <module name="mapper" />
         <module name="model" />
+        <module name="service" />
       </profile>
     </annotationProcessing>
   </component>
