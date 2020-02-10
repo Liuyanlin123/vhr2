@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.youkeda.vhr2.mapper.AppraiseMapper">
+    <resultMap id="BaseResultMap" type="com.youkeda.vhr2.model.Appraise" >
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="eid" property="eid" jdbcType="INTEGER" />
+        <result column="appDate" property="appDate" jdbcType="DATE" />
+        <result column="appResult" property="appResult" jdbcType="VARCHAR" />
+        <result column="appContent" property="appContent" jdbcType="VARCHAR" />
+        <result column="remark" property="remark" jdbcType="VARCHAR" />
+    </resultMap>
+
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+        select
+               id, eid, appDate, appResult, appContent, remark
+        from appraise
+        where id = #{id}
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+        delete from appraise
+        where id = #{id}
+    </delete>
+    <insert id="insert" parameterType="com.youkeda.vhr2.model.Appraise" >
+        insert into appraise (id, eid, appDate,
+                              appResult, appContent, remark
+                )
+        values (#{id}, #{eid}, #{appDate},
+                #{appResult}, #{appContent}, #{remark}
+                 )
+    </insert>
+    <insert id="insertSelective" parameterType="com.youkeda.vhr2.model.Appraise" >
+        insert into appraise
+        <trim prefix="(" suffix=")" suffixOverrides="," >
+            <if test="id != null" >
+                id,
+            </if>
+            <if test="eid != null" >
+                eid,
+            </if>
+            <if test="appDate != null" >
+                appDate,
+            </if>
+            <if test="appResult != null" >
+                appResult,
+            </if>
+            <if test="appContent != null" >
+                appContent,
+            </if>
+            <if test="remark != null" >
+                remark,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides="," >
+            <if test="id != null" >
+                #{id},
+            </if>
+            <if test="eid != null" >
+                #{eid},
+            </if>
+            <if test="appDate != null" >
+                #{appDate},
+            </if>
+            <if test="appResult != null" >
+                #{appResult},
+            </if>
+            <if test="appContent != null" >
+                #{appContent},
+            </if>
+            <if test="remark != null" >
+                #{remark},
+            </if>
+        </trim>
+    </insert>
+    <update id="updateByPrimaryKeySelective" parameterType="com.youkeda.vhr2.model.Appraise" >
+        update appraise
+        <set >
+            <if test="eid != null" >
+                eid = #{eid},
+            </if>
+            <if test="appDate != null" >
+                appDate = #{appDate},
+            </if>
+            <if test="appResult != null" >
+                appResult = #{appResult},
+            </if>
+            <if test="appContent != null" >
+                appContent = #{appContent},
+            </if>
+            <if test="remark != null" >
+                remark = #{remark},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+    <update id="updateByPrimaryKey" parameterType="com.youkeda.vhr2.model.Appraise" >
+        update appraise
+        set eid = #{eid},
+            appDate = #{appDate},
+            appResult = #{appResult},
+            appContent = #{appContent},
+            remark = #{remark}
+        where id = #{id}
+    </update>
+
+</mapper>
