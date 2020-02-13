@@ -1,51 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55e7a72a-2648-4ff9-8c58-82d3d3bc12ce" name="Default Changelist" comment="第一次提交">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/AdjustSalaryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/AdjustSalaryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/AppraiseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/AppraiseMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/DepartmentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/DepartmentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/EmployeeEcMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/EmployeeEcMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/EmployeeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/EmployeeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/AdjustSalary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/Appraise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/ChatMsg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/EmpSalary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/EmployeeEc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/EmployeeRemove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/EmployeeTrain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/Hr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/HrRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/JobLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/MenuRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/Meta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/MsgContent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/Nation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/OpLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/PoliticsStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/ResponseBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/ResponsePageBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/Salary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/SystemMsg.java" afterDir="false" />
+    <list default="true" id="55e7a72a-2648-4ff9-8c58-82d3d3bc12ce" name="Default Changelist" comment="第次提交">
+      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/EmpSalaryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/EmpSalaryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/EmployeeRemoveMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/EmployeeRemoveMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/EmployeeTrainMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/EmployeeTrainMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/HrMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/HrMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/HrRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/HrRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/JobLevelMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/JobLevelMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/MenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/MenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/MenuRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/MenuRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/MsgContentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/MsgContentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/NationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/NationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/OpLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/OpLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/PoliticsStatusMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/PoliticsStatusMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/PositionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/PositionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/SalaryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/SalaryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/SystemMsgMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/SystemMsgMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/service/src/main/java/com/youkeda/vhr2/service/DepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/service/src/main/java/com/youkeda/vhr2/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/service/src/main/java/com/youkeda/vhr2/service/HrService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/service/src/main/java/com/youkeda/vhr2/service/JobLevelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/service/src/main/java/com/youkeda/vhr2/service/MenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/service/src/main/java/com/youkeda/vhr2/service/NationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/service/src/main/java/com/youkeda/vhr2/service/PoliticsstatusService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/service/src/main/java/com/youkeda/vhr2/service/PositionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/service/src/main/java/com/youkeda/vhr2/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/service/src/main/java/com/youkeda/vhr2/service/SalaryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/service/src/main/java/com/youkeda/vhr2/service/util/HrUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/config/CustomFilterInvocationSecurityMetadataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/config/CustomUrlDecisionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/config/MySecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/config/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/controller/config/SystemConfigController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/controller/emp/EmployeeBasicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/controller/salary/SalaryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/controller/salary/SobConfigController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/controller/system/HrController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/controller/system/basic/DepartmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/controller/system/basic/JobLevelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/controller/system/basic/PermissController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/controller/system/basic/PositionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/converter/DateConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/exception/GlobalExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vhr2server/mapper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vhr2server/mapper/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vhr2server/model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vhr2server/model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/AdjustSalaryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/AdjustSalaryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/AppraiseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/AppraiseMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/DepartmentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/DepartmentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/DepartmentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/DepartmentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/EmployeeEcMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/EmployeeEcMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/EmployeeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhr2server/mapper/target/classes/com/youkeda/vhr2/mapper/AdjustSalaryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vhr2server/mapper/target/classes/com/youkeda/vhr2/mapper/AdjustSalaryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhr2server/mapper/target/classes/com/youkeda/vhr2/mapper/AppraiseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vhr2server/mapper/target/classes/com/youkeda/vhr2/mapper/AppraiseMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhr2server/mapper/target/classes/com/youkeda/vhr2/mapper/DepartmentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/vhr2server/mapper/target/classes/com/youkeda/vhr2/mapper/DepartmentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhr2server/mapper/target/classes/com/youkeda/vhr2/mapper/DepartmentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vhr2server/mapper/target/classes/com/youkeda/vhr2/mapper/DepartmentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhr2server/mapper/target/classes/com/youkeda/vhr2/mapper/EmployeeEcMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vhr2server/mapper/target/classes/com/youkeda/vhr2/mapper/EmployeeEcMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhr2server/mapper/target/classes/com/youkeda/vhr2/mapper/EmployeeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/vhr2server/mapper/target/classes/com/youkeda/vhr2/mapper/EmployeeMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/Hr.java" beforeDir="false" afterPath="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/Hr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/PoliticsStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/PoliticsStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/Salary.java" beforeDir="false" afterPath="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/Salary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhr2server/model/target/classes/com/youkeda/vhr2/model/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/vhr2server/model/target/classes/com/youkeda/vhr2/model/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhr2server/model/target/classes/com/youkeda/vhr2/model/Hr.class" beforeDir="false" afterPath="$PROJECT_DIR$/vhr2server/model/target/classes/com/youkeda/vhr2/model/Hr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhr2server/model/target/classes/com/youkeda/vhr2/model/PoliticsStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/vhr2server/model/target/classes/com/youkeda/vhr2/model/PoliticsStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhr2server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vhr2server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhr2server/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vhr2server/service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhr2server/vhr2server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/vhr2server/vhr2server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhr2server/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vhr2server/web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhr2server/web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/vhr2server/web/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhr2server/web/src/test/java/com/youkeda/vhr2/WebApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/vhr2server/web/src/test/java/com/youkeda/vhr2/WebApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/vhr2server/mapper/target/" />
@@ -92,6 +135,21 @@
         <item name="vhr@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="vhr: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="vhr@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="vhr: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="employee: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="vhr@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="vhr: schema" type="c314c289:MysqlImplModel$Schema" />
         <item name="routines" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
     </expand>
@@ -101,228 +159,108 @@
     <session id="-36374525">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="1" />
           <entry key="department" value="1" />
           <entry key="dtd" value="2" />
           <entry key="iml" value="1" />
-          <entry key="java" value="89" />
+          <entry key="java" value="235" />
           <entry key="properties" value="2" />
-          <entry key="sql" value="3" />
-          <entry key="xml" value="24" />
+          <entry key="sql" value="4" />
+          <entry key="xml" value="87" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="1" />
           <entry key="DTD" value="2" />
           <entry key="Database Element" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="89" />
+          <entry key="JAVA" value="235" />
           <entry key="Properties" value="2" />
-          <entry key="SQL" value="2" />
+          <entry key="SQL" value="3" />
           <entry key="Scratch" value="1" />
-          <entry key="XML" value="24" />
+          <entry key="XML" value="87" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="dummy" value="10" />
           <entry key="ft" value="1" />
-          <entry key="java" value="885" />
+          <entry key="java" value="1865" />
           <entry key="properties" value="34" />
           <entry key="sql" value="14" />
-          <entry key="txt" value="12" />
-          <entry key="xml" value="552" />
+          <entry key="txt" value="14" />
+          <entry key="xml" value="858" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="885" />
-          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="JAVA" value="1865" />
+          <entry key="PLAIN_TEXT" value="24" />
           <entry key="Properties" value="34" />
-          <entry key="SQL" value="90" />
+          <entry key="SQL" value="146" />
           <entry key="VTL" value="1" />
-          <entry key="XML" value="476" />
+          <entry key="XML" value="726" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vhr2server/web/src/test/java/com/youkeda/vhr2/WebApplicationTests.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/controller/system/basic/DepartmentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/Employee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+            <state relative-caret-position="469">
+              <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1593#1594#0" expanded="true" />
-                <element signature="e#1618#1619#0" expanded="true" />
-                <element signature="e#1655#1656#0" expanded="true" />
-                <element signature="e#1683#1684#0" expanded="true" />
-                <element signature="e#1714#1715#0" expanded="true" />
-                <element signature="e#1741#1742#0" expanded="true" />
-                <element signature="e#1781#1782#0" expanded="true" />
-                <element signature="e#1813#1814#0" expanded="true" />
-                <element signature="e#1846#1847#0" expanded="true" />
-                <element signature="e#1875#1876#0" expanded="true" />
-                <element signature="e#1919#1920#0" expanded="true" />
-                <element signature="e#1955#1956#0" expanded="true" />
-                <element signature="e#1988#1989#0" expanded="true" />
-                <element signature="e#2019#2020#0" expanded="true" />
-                <element signature="e#2065#2066#0" expanded="true" />
-                <element signature="e#2105#2106#0" expanded="true" />
-                <element signature="e#2138#2139#0" expanded="true" />
-                <element signature="e#2167#2168#0" expanded="true" />
-                <element signature="e#2211#2212#0" expanded="true" />
-                <element signature="e#2247#2248#0" expanded="true" />
-                <element signature="e#2281#2282#0" expanded="true" />
-                <element signature="e#2311#2312#0" expanded="true" />
-                <element signature="e#2357#2358#0" expanded="true" />
-                <element signature="e#2395#2396#0" expanded="true" />
-                <element signature="e#2431#2432#0" expanded="true" />
-                <element signature="e#2462#2463#0" expanded="true" />
-                <element signature="e#2511#2512#0" expanded="true" />
-                <element signature="e#2551#2552#0" expanded="true" />
-                <element signature="e#2589#2590#0" expanded="true" />
-                <element signature="e#2623#2624#0" expanded="true" />
-                <element signature="e#2677#2678#0" expanded="true" />
-                <element signature="e#2723#2724#0" expanded="true" />
-                <element signature="e#2760#2761#0" expanded="true" />
-                <element signature="e#2792#2793#0" expanded="true" />
-                <element signature="e#2843#2844#0" expanded="true" />
-                <element signature="e#2885#2886#0" expanded="true" />
-                <element signature="e#2917#2918#0" expanded="true" />
-                <element signature="e#2945#2946#0" expanded="true" />
-                <element signature="e#2987#2988#0" expanded="true" />
-                <element signature="e#3021#3022#0" expanded="true" />
-                <element signature="e#3053#3054#0" expanded="true" />
-                <element signature="e#3081#3082#0" expanded="true" />
-                <element signature="e#3123#3124#0" expanded="true" />
-                <element signature="e#3157#3158#0" expanded="true" />
-                <element signature="e#3191#3192#0" expanded="true" />
-                <element signature="e#3221#3222#0" expanded="true" />
-                <element signature="e#3267#3268#0" expanded="true" />
-                <element signature="e#3305#3306#0" expanded="true" />
-                <element signature="e#3345#3346#0" expanded="true" />
-                <element signature="e#3380#3381#0" expanded="true" />
-                <element signature="e#3437#3438#0" expanded="true" />
-                <element signature="e#3485#3486#0" expanded="true" />
-                <element signature="e#3523#3524#0" expanded="true" />
-                <element signature="e#3556#3557#0" expanded="true" />
-                <element signature="e#3609#3610#0" expanded="true" />
-                <element signature="e#3653#3654#0" expanded="true" />
-                <element signature="e#3686#3687#0" expanded="true" />
-                <element signature="e#3714#3715#0" expanded="true" />
-                <element signature="e#3757#3758#0" expanded="true" />
-                <element signature="e#3791#3792#0" expanded="true" />
-                <element signature="e#3828#3829#0" expanded="true" />
-                <element signature="e#3861#3862#0" expanded="true" />
-                <element signature="e#3913#3914#0" expanded="true" />
-                <element signature="e#3957#3958#0" expanded="true" />
-                <element signature="e#3996#3997#0" expanded="true" />
-                <element signature="e#4031#4032#0" expanded="true" />
-                <element signature="e#4087#4088#0" expanded="true" />
-                <element signature="e#4135#4136#0" expanded="true" />
-                <element signature="e#4171#4172#0" expanded="true" />
-                <element signature="e#4203#4204#0" expanded="true" />
-                <element signature="e#4253#4254#0" expanded="true" />
-                <element signature="e#4295#4296#0" expanded="true" />
-                <element signature="e#4328#4329#0" expanded="true" />
-                <element signature="e#4357#4358#0" expanded="true" />
-                <element signature="e#4401#4402#0" expanded="true" />
-                <element signature="e#4437#4438#0" expanded="true" />
-                <element signature="e#4471#4472#0" expanded="true" />
-                <element signature="e#4503#4504#0" expanded="true" />
-                <element signature="e#4551#4552#0" expanded="true" />
-                <element signature="e#4593#4594#0" expanded="true" />
-                <element signature="e#4629#4630#0" expanded="true" />
-                <element signature="e#4661#4662#0" expanded="true" />
-                <element signature="e#4711#4712#0" expanded="true" />
-                <element signature="e#4753#4754#0" expanded="true" />
-                <element signature="e#4786#4787#0" expanded="true" />
-                <element signature="e#4815#4816#0" expanded="true" />
-                <element signature="e#4859#4860#0" expanded="true" />
-                <element signature="e#4895#4896#0" expanded="true" />
-                <element signature="e#4934#4935#0" expanded="true" />
-                <element signature="e#4969#4970#0" expanded="true" />
-                <element signature="e#5025#5026#0" expanded="true" />
-                <element signature="e#5073#5074#0" expanded="true" />
-                <element signature="e#5112#5113#0" expanded="true" />
-                <element signature="e#5149#5150#0" expanded="true" />
-                <element signature="e#5207#5208#0" expanded="true" />
-                <element signature="e#5259#5260#0" expanded="true" />
-                <element signature="e#5295#5296#0" expanded="true" />
-                <element signature="e#5329#5330#0" expanded="true" />
-                <element signature="e#5381#5382#0" expanded="true" />
-                <element signature="e#5427#5428#0" expanded="true" />
-                <element signature="e#5465#5466#0" expanded="true" />
-                <element signature="e#5501#5502#0" expanded="true" />
-                <element signature="e#5557#5558#0" expanded="true" />
-                <element signature="e#5607#5608#0" expanded="true" />
-                <element signature="e#5643#5644#0" expanded="true" />
-                <element signature="e#5677#5678#0" expanded="true" />
-                <element signature="e#5729#5730#0" expanded="true" />
-                <element signature="e#5775#5776#0" expanded="true" />
-                <element signature="e#5810#5811#0" expanded="true" />
-                <element signature="e#5840#5841#0" expanded="true" />
-                <element signature="e#5887#5888#0" expanded="true" />
-                <element signature="e#5925#5926#0" expanded="true" />
-                <element signature="e#5958#5959#0" expanded="true" />
-                <element signature="e#5987#5988#0" expanded="true" />
-                <element signature="e#6031#6032#0" expanded="true" />
-                <element signature="e#6067#6068#0" expanded="true" />
-                <element signature="e#6116#6117#0" expanded="true" />
-                <element signature="e#6153#6154#0" expanded="true" />
-                <element signature="e#6221#6222#0" expanded="true" />
-                <element signature="e#6273#6274#0" expanded="true" />
-                <element signature="e#6314#6315#0" expanded="true" />
-                <element signature="e#6347#6348#0" expanded="true" />
-                <element signature="e#6403#6404#0" expanded="true" />
-                <element signature="e#6447#6448#0" expanded="true" />
-                <element signature="e#6484#6485#0" expanded="true" />
-                <element signature="e#6515#6516#0" expanded="true" />
-                <element signature="e#6565#6566#0" expanded="true" />
-                <element signature="e#6605#6606#0" expanded="true" />
-                <element signature="e#6642#6643#0" expanded="true" />
-                <element signature="e#6673#6674#0" expanded="true" />
-                <element signature="e#6723#6724#0" expanded="true" />
-                <element signature="e#6763#6764#0" expanded="true" />
-                <element signature="e#6796#6797#0" expanded="true" />
-                <element signature="e#6825#6826#0" expanded="true" />
-                <element signature="e#6869#6870#0" expanded="true" />
-                <element signature="e#6905#6906#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/EmployeeMapper.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/DepartmentMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="113" column="21" lean-forward="true" selection-start-line="113" selection-start-column="21" selection-end-line="113" selection-end-column="21" />
+            <state relative-caret-position="322">
+              <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/AdjustSalaryMapper.xml">
+        <entry file="file://$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/controller/system/basic/JobLevelController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+            <state relative-caret-position="301">
+              <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#798#799#0" expanded="true" />
+                <element signature="e#854#855#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/ResponseBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+              <folding>
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="method#ResponseBean#1;class#ResponseBean#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -333,16 +271,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="Interface" />
         <option value="MyBatisMapper" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>LocalDate</find>
-      <find>RespBean</find>
       <find>Integer</find>
       <find>Long</find>
       <find>DepartmentWithChildren</find>
@@ -350,16 +287,44 @@
       <find>asdate</find>
       <find>asDate</find>
       <find>Employeeec</find>
+      <find>keyword</find>
+      <find>emp</find>
+      <find>collection</find>
+      <find>Employeeremove</find>
+      <find>Employeetrain</find>
+      <find>keywords</find>
+      <find>like</find>
       <find>org.javaboy.vhr</find>
+      <find>PoliticsstatusMapper</find>
+      <find>SysMsg</find>
+      <find>Politicsstatus</find>
+      <find>getAllHrs</find>
+      <find>delete</find>
+      <find>deleteByHrid</find>
+      <find>RespPageBean</find>
+      <find>addEmps</find>
+      <find>insertSelective</find>
+      <find>deleteDepartmentById</find>
+      <find>deleteDepById</find>
+      <find>RespBean</find>
     </findStrings>
     <replaceStrings>
       <replace>Date</replace>
-      <replace>ResponseBean</replace>
       <replace>Long</replace>
       <replace>Integer</replace>
       <replace>adjustSalaryDate</replace>
       <replace>EmployeeEc</replace>
+      <replace>employee</replace>
+      <replace>EmployeeRemove</replace>
+      <replace>afterDepartmentId</replace>
+      <replace>afterJobId</replace>
+      <replace>EmployeeTrain</replace>
       <replace>com.youkeda.vhr2</replace>
+      <replace>PoliticsStatusMapper</replace>
+      <replace>PoliticsStatus</replace>
+      <replace>SystemMsg</replace>
+      <replace>ResponsePageBean</replace>
+      <replace>ResponseBean</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -368,57 +333,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/vhr2server/model/pom.xml" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/Nation.java" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/Politicsstatus.java" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/EmployeeRemove.java" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/EmployeeEc.java" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/Hr.java" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/EmpSalary.java" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/EmployeeTrain.java" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/Role.java" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/Employee.java" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/hrRole.java" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/HrRole.java" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/Menu.java" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/MenuRole.java" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/Meta.java" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/JobLevel.java" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/MsgContent.java" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/OpLog.java" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/PoliticsStatus.java" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/ResponseBean.java" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/Position.java" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/ResponsePageBean.java" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/Salary.java" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/mapper/SystemMsg.java" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/SystemMsg.java" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/SystemMsg.java" />
+        <option value="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/MsgContentMapper.xml" />
+        <option value="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/NationMapper.xml" />
+        <option value="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/OpLogMapper.xml" />
+        <option value="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/PoliticsstatusMapper.xml" />
+        <option value="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/PositionMapper.xml" />
+        <option value="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/RoleMapper.xml" />
+        <option value="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/SalaryMapper.xml" />
+        <option value="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/PoliticsStatusMapper.xml" />
+        <option value="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/SystemMsgMapper.xml" />
         <option value="$PROJECT_DIR$/vhr2server/mapper/pom.xml" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/AdjustSalary.java" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/Appraise.java" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/Department.java" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/EmployeeEc.java" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/EmployeeRemove.java" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/EmployeeTrain.java" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/EmpSalary.java" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/Hr.java" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/HrRole.java" />
-        <option value="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/AdjustSalaryMapper..xml" />
-        <option value="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/AppraiseMapper.java" />
+        <option value="$PROJECT_DIR$/vhr2server/service/pom.xml" />
         <option value="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/DepartmentMapper.java" />
-        <option value="$PROJECT_DIR$/vhr2server/mapper/src/test/java/AdjustSalaryMapperTest.java" />
-        <option value="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/AdjustSalaryMapper.java" />
-        <option value="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/AppraiseMapper.xml" />
-        <option value="/c4338b9e/fafec20d-c751-4ebc-8547-12b9cc16245a/schema/vhr/routine/adddep@(varchar(32),int(11),tinyint(1)).sql" />
-        <option value="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/DepartmentMapper.xml" />
-        <option value="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/AdjustSalaryMapper.xml" />
-        <option value="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/EmployeeMapper.java" />
-        <option value="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/EmployeeEcMapper.java" />
-        <option value="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/EmployeeEcMapper.xml" />
         <option value="$PROJECT_DIR$/vhr2server/web/src/test/java/com/youkeda/vhr2/WebApplicationTests.java" />
-        <option value="$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/Employee.java" />
-        <option value="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/EmployeeMapper.xml" />
+        <option value="$PROJECT_DIR$/vhr2server/service/src/main/java/com/youkeda/vhr2/service/DepartmentService.java" />
+        <option value="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/JobLevelMapper.java" />
+        <option value="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/HrRoleMapper.java" />
+        <option value="$PROJECT_DIR$/vhr2server/service/src/main/java/com/youkeda/vhr2/service/util/HrUtils.java" />
+        <option value="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/HrMapper.java" />
+        <option value="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/HrMapper.xml" />
+        <option value="$PROJECT_DIR$/vhr2server/service/src/main/java/com/youkeda/vhr2/service/HrService.java" />
+        <option value="$PROJECT_DIR$/vhr2server/service/src/main/java/com/youkeda/vhr2/service/JobLevelService.java" />
+        <option value="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/EmployeeRemoveMapper.java" />
+        <option value="$PROJECT_DIR$/vhr2server/service/src/main/java/com/youkeda/vhr2/service/EmployeeService.java" />
+        <option value="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/PoliticsStatusMapper.java" />
+        <option value="$PROJECT_DIR$/vhr2server/service/src/main/java/com/youkeda/vhr2/service/PoliticsstatusService.java" />
+        <option value="$PROJECT_DIR$/vhr2server/service/src/main/java/com/youkeda/vhr2/service/MenuService.java" />
+        <option value="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/MenuMapper.java" />
+        <option value="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/MenuRoleMapper.java" />
+        <option value="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/SalaryMapper.java" />
+        <option value="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/NationMapper.java" />
+        <option value="$PROJECT_DIR$/vhr2server/service/src/main/java/com/youkeda/vhr2/service/SalaryService.java" />
+        <option value="$PROJECT_DIR$/vhr2server/service/src/main/java/com/youkeda/vhr2/service/NationService.java" />
+        <option value="$PROJECT_DIR$/vhr2server/service/src/main/java/com/youkeda/vhr2/service/RoleService.java" />
+        <option value="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/RoleMapper.java" />
+        <option value="$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/controller/config/SystemConfigController.java" />
+        <option value="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/PositionMapper.java" />
+        <option value="$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/controller/emp/EmpBasicController.java" />
+        <option value="$PROJECT_DIR$/vhr2server/service/src/main/java/com/youkeda/vhr2/service/PositionService.java" />
+        <option value="$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/controller/emp/EmployeeBasicController.java" />
+        <option value="$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/controller/salary/SalaryController.java" />
+        <option value="$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/controller/salary/SobConfigController.java" />
+        <option value="$PROJECT_DIR$/vhr2server/pom.xml" />
+        <option value="$PROJECT_DIR$/vhr2server/web/pom.xml" />
+        <option value="$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/config/CustomFilterInvocationSecurityMetadataSource.java" />
+        <option value="$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/controller/system/basic/DepartmentController.java" />
+        <option value="$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/controller/system/HrController.java" />
+        <option value="$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/controller/exception/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/exception/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/controller/system/basic/JobLevelController.java" />
+        <option value="$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/DepartmentMapper.xml" />
       </list>
     </option>
   </component>
@@ -447,11 +412,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mapper" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mapper" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
@@ -472,9 +437,11 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -522,6 +489,16 @@
               <item name="vhr2" type="b2602c69:ProjectViewProjectNode" />
               <item name="vhr2" type="462c0819:PsiDirectoryNode" />
               <item name="vhr2server" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vhr2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vhr2" type="462c0819:PsiDirectoryNode" />
+              <item name="vhr2server" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -552,28 +529,205 @@
               <item name="vhr2" type="b2602c69:ProjectViewProjectNode" />
               <item name="vhr2" type="462c0819:PsiDirectoryNode" />
               <item name="vhr2server" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vhr2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vhr2" type="462c0819:PsiDirectoryNode" />
+              <item name="vhr2server" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vhr2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vhr2" type="462c0819:PsiDirectoryNode" />
+              <item name="vhr2server" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vhr2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vhr2" type="462c0819:PsiDirectoryNode" />
+              <item name="vhr2server" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vhr2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vhr2" type="462c0819:PsiDirectoryNode" />
+              <item name="vhr2server" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vhr2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vhr2" type="462c0819:PsiDirectoryNode" />
+              <item name="vhr2server" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vhr2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vhr2" type="462c0819:PsiDirectoryNode" />
+              <item name="vhr2server" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vhr2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vhr2" type="462c0819:PsiDirectoryNode" />
+              <item name="vhr2server" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vhr2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vhr2" type="462c0819:PsiDirectoryNode" />
+              <item name="vhr2server" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vhr2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vhr2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vhr2" type="462c0819:PsiDirectoryNode" />
+              <item name="vhr2server" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vhr2" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vhr2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vhr2" type="462c0819:PsiDirectoryNode" />
+              <item name="vhr2server" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vhr2" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vhr2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vhr2" type="462c0819:PsiDirectoryNode" />
+              <item name="vhr2server" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vhr2" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vhr2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vhr2" type="462c0819:PsiDirectoryNode" />
+              <item name="vhr2server" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vhr2" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="emp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vhr2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vhr2" type="462c0819:PsiDirectoryNode" />
+              <item name="vhr2server" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vhr2" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="salary" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vhr2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vhr2" type="462c0819:PsiDirectoryNode" />
+              <item name="vhr2server" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vhr2" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vhr2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vhr2" type="462c0819:PsiDirectoryNode" />
+              <item name="vhr2server" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vhr2" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vhr2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vhr2" type="462c0819:PsiDirectoryNode" />
+              <item name="vhr2server" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vhr2" type="462c0819:PsiDirectoryNode" />
+              <item name="converter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vhr2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vhr2" type="462c0819:PsiDirectoryNode" />
+              <item name="vhr2server" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vhr2" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581349149282" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581601167822" />
     <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vhr2server/service/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.6306761" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java\mywork\vhr2\vhr2server\web\src\main\java\com\youkeda\vhr2" />
+      <recent name="E:\java\mywork\vhr2\vhr2server\web\src\main\java\com\youkeda\vhr2\controller" />
+      <recent name="E:\java\mywork\vhr2\vhr2server\web\src\main\java\com\youkeda\vhr2\config" />
+      <recent name="E:\java\mywork\vhr2\vhr2server\service\src\main\java\com\youkeda\vhr2\service" />
+      <recent name="E:\java\mywork\vhr2\vhr2server\mapper\src\main\java\com\youkeda\vhr2\mapper" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -592,7 +746,7 @@
       <module name="web" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.youkeda.vhr2.*" />
+          <option name="PATTERN" value="com.youkeda.vhr2.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -631,7 +785,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581242265094</updated>
-      <workItem from="1581242267856" duration="30059000" />
+      <workItem from="1581242267856" duration="46228000" />
+      <workItem from="1581432804445" duration="6770000" />
+      <workItem from="1581497773013" duration="10876000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1581242530690</created>
@@ -644,77 +800,76 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WebApplicationTests_contextLoads - 2020.02.10 at 19h 04m 58s.xml">
+    <history-entry file="WebApplicationTests_contextLoads - 2020.02.11 at 14h 04m 07s.xml">
       <configuration name="WebApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WebApplicationTests_contextLoads - 2020.02.10 at 20h 47m 05s.xml">
+    <history-entry file="WebApplicationTests_contextLoads - 2020.02.11 at 14h 08m 05s.xml">
       <configuration name="WebApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WebApplicationTests_contextLoads - 2020.02.10 at 21h 03m 34s.xml">
+    <history-entry file="WebApplicationTests_contextLoads - 2020.02.11 at 14h 10m 33s.xml">
       <configuration name="WebApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WebApplicationTests_contextLoads - 2020.02.10 at 21h 04m 49s.xml">
+    <history-entry file="WebApplicationTests_contextLoads - 2020.02.11 at 14h 12m 56s.xml">
       <configuration name="WebApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WebApplicationTests_contextLoads - 2020.02.10 at 21h 07m 26s.xml">
+    <history-entry file="WebApplicationTests_contextLoads - 2020.02.11 at 14h 14m 00s.xml">
       <configuration name="WebApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WebApplicationTests_contextLoads - 2020.02.10 at 21h 08m 04s.xml">
+    <history-entry file="WebApplicationTests_contextLoads - 2020.02.11 at 14h 14m 42s.xml">
       <configuration name="WebApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WebApplicationTests_contextLoads - 2020.02.10 at 21h 09m 40s.xml">
+    <history-entry file="WebApplicationTests_contextLoads - 2020.02.11 at 14h 17m 30s.xml">
       <configuration name="WebApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WebApplicationTests_contextLoads - 2020.02.10 at 23h 06m 03s.xml">
+    <history-entry file="WebApplicationTests_contextLoads - 2020.02.11 at 22h 59m 01s.xml">
       <configuration name="WebApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WebApplicationTests_contextLoads - 2020.02.10 at 23h 06m 52s.xml">
+    <history-entry file="WebApplicationTests_contextLoads - 2020.02.12 at 11h 26m 44s.xml">
       <configuration name="WebApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WebApplicationTests_contextLoads - 2020.02.10 at 23h 07m 15s.xml">
+    <history-entry file="WebApplicationTests_contextLoads - 2020.02.12 at 11h 27m 51s.xml">
       <configuration name="WebApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30059000" />
+    <option name="totallyTimeSpent" value="63874000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24396783" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" weight="0.3286119" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3286119" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4348442" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Maven Projects" weight="0.3297587" />
-      <window_info anchor="right" id="Database" weight="0.17024128" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="UI Designer" order="0" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.2613941" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32294616" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.3286119" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.3526912" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Maven Projects" order="1" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="2" weight="0.16621985" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Bean Validation" order="5" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -731,834 +886,527 @@
     <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mailserver/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/HrMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/Nation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/Meta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding>
-            <element signature="e#147#148#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/MenuRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        <state relative-caret-position="299">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-            <element signature="e#818#819#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
-            <element signature="e#918#919#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
-            <element signature="e#1054#1055#0" expanded="true" />
-            <element signature="e#1100#1101#0" expanded="true" />
-            <element signature="e#1138#1139#0" expanded="true" />
-            <element signature="e#1167#1168#0" expanded="true" />
-            <element signature="e#1194#1195#0" expanded="true" />
-            <element signature="e#1232#1233#0" expanded="true" />
-            <element signature="e#1264#1265#0" expanded="true" />
-            <element signature="e#1297#1298#0" expanded="true" />
-            <element signature="e#1328#1329#0" expanded="true" />
-            <element signature="e#1374#1375#0" expanded="true" />
-            <element signature="e#1414#1415#0" expanded="true" />
-            <element signature="e#1449#1450#0" expanded="true" />
-            <element signature="e#1479#1480#0" expanded="true" />
-            <element signature="e#1526#1527#0" expanded="true" />
-            <element signature="e#1564#1565#0" expanded="true" />
-            <element signature="e#1603#1604#0" expanded="true" />
-            <element signature="e#1634#1635#0" expanded="true" />
-            <element signature="e#1686#1687#0" expanded="true" />
-            <element signature="e#1726#1727#0" expanded="true" />
-            <element signature="e#1762#1763#0" expanded="true" />
-            <element signature="e#1790#1791#0" expanded="true" />
-            <element signature="e#1836#1837#0" expanded="true" />
-            <element signature="e#1870#1871#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/MsgContent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/OpLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/PoliticsStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/ResponseBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="method#ResponseBean#0;class#ResponseBean#0" />
-            <element signature="method#ResponseBean#1;class#ResponseBean#0" />
-            <element signature="method#setStatus#0;class#ResponseBean#0" />
-            <element signature="method#setMsg#0;class#ResponseBean#0" />
-            <element signature="method#setObj#0;class#ResponseBean#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
-            <element signature="e#864#865#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/ResponsePageBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="253">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/Role.java">
+    <entry file="jar://$PROJECT_DIR$/../../apache-Maven/repository/org/springframework/amqp/spring-rabbit/2.1.8.RELEASE/spring-rabbit-2.1.8.RELEASE-sources.jar!/org/springframework/amqp/rabbit/core/RabbitTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#147#148#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="778">
+          <caret line="146" column="13" selection-start-line="146" selection-start-column="13" selection-end-line="146" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/Salary.java">
+    <entry file="file://$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/HrRoleMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#986#987#0" expanded="true" />
-            <element signature="e#1029#1030#0" expanded="true" />
-            <element signature="e#1063#1064#0" expanded="true" />
-            <element signature="e#1102#1103#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
-            <element signature="e#1191#1192#0" expanded="true" />
-            <element signature="e#1237#1238#0" expanded="true" />
-            <element signature="e#1278#1279#0" expanded="true" />
-            <element signature="e#1314#1315#0" expanded="true" />
-            <element signature="e#1373#1374#0" expanded="true" />
-            <element signature="e#1423#1424#0" expanded="true" />
-            <element signature="e#1460#1461#0" expanded="true" />
-            <element signature="e#1492#1493#0" expanded="true" />
-            <element signature="e#1543#1544#0" expanded="true" />
-            <element signature="e#1585#1586#0" expanded="true" />
-            <element signature="e#1624#1625#0" expanded="true" />
-            <element signature="e#1658#1659#0" expanded="true" />
-            <element signature="e#1713#1714#0" expanded="true" />
-            <element signature="e#1759#1760#0" expanded="true" />
-            <element signature="e#1795#1796#0" expanded="true" />
-            <element signature="e#1828#1829#0" expanded="true" />
-            <element signature="e#1879#1880#0" expanded="true" />
-            <element signature="e#1923#1924#0" expanded="true" />
-            <element signature="e#1958#1959#0" expanded="true" />
-            <element signature="e#1991#1992#0" expanded="true" />
-            <element signature="e#2041#2042#0" expanded="true" />
-            <element signature="e#2085#2086#0" expanded="true" />
-            <element signature="e#2124#2125#0" expanded="true" />
-            <element signature="e#2158#2159#0" expanded="true" />
-            <element signature="e#2213#2214#0" expanded="true" />
-            <element signature="e#2259#2260#0" expanded="true" />
-            <element signature="e#2295#2296#0" expanded="true" />
-            <element signature="e#2328#2329#0" expanded="true" />
-            <element signature="e#2379#2380#0" expanded="true" />
-            <element signature="e#2423#2424#0" expanded="true" />
-            <element signature="e#2471#2472#0" expanded="true" />
-            <element signature="e#2514#2515#0" expanded="true" />
-            <element signature="e#2696#2697#0" expanded="true" />
-            <element signature="e#2738#2739#0" expanded="true" />
-            <element signature="e#2807#2808#0" expanded="true" />
-            <element signature="e#2869#2870#0" expanded="true" />
-            <element signature="e#2900#2901#0" expanded="true" />
-            <element signature="e#2927#2928#0" expanded="true" />
-            <element signature="e#2967#2968#0" expanded="true" />
-            <element signature="e#2999#3000#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/SystemMsg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/mapper/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fafec20d-c751-4ebc-8547-12b9cc16245a/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/ChatMsg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/EmployeeEc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-          <folding>
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/EmployeeRemove.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1028">
-          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
-          <folding>
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/EmployeeTrain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-          <folding>
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/EmpSalary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-          <folding>
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/Hr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1541">
-          <caret line="75" column="29" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1058#1059#0" expanded="true" />
-            <element signature="e#1094#1095#0" expanded="true" />
-            <element signature="e#1130#1131#0" expanded="true" />
-            <element signature="e#1188#1189#0" expanded="true" />
-            <element signature="e#1215#1216#0" expanded="true" />
-            <element signature="e#1272#1273#0" expanded="true" />
-            <element signature="e#1299#1300#0" expanded="true" />
-            <element signature="e#1361#1362#0" expanded="true" />
-            <element signature="e#1388#1389#0" expanded="true" />
-            <element signature="e#1436#1437#0" expanded="true" />
-            <element signature="e#1463#1464#0" expanded="true" />
-            <element signature="e#1493#1494#0" expanded="true" />
-            <element signature="e#1518#1519#0" expanded="true" />
-            <element signature="e#1546#1547#0" expanded="true" />
-            <element signature="e#1574#1575#0" expanded="true" />
-            <element signature="e#1605#1606#0" expanded="true" />
-            <element signature="e#1632#1633#0" expanded="true" />
-            <element signature="e#1672#1673#0" expanded="true" />
-            <element signature="e#1704#1705#0" expanded="true" />
-            <element signature="e#1736#1737#0" expanded="true" />
-            <element signature="e#1764#1765#0" expanded="true" />
-            <element signature="e#1806#1807#0" expanded="true" />
-            <element signature="e#1840#1841#0" expanded="true" />
-            <element signature="e#1876#1877#0" expanded="true" />
-            <element signature="e#1908#1909#0" expanded="true" />
-            <element signature="e#1958#1959#0" expanded="true" />
-            <element signature="e#2000#2001#0" expanded="true" />
-            <element signature="e#2034#2035#0" expanded="true" />
-            <element signature="e#2064#2065#0" expanded="true" />
-            <element signature="e#2110#2111#0" expanded="true" />
-            <element signature="e#2148#2149#0" expanded="true" />
-            <element signature="e#2183#2184#0" expanded="true" />
-            <element signature="e#2213#2214#0" expanded="true" />
-            <element signature="e#2260#2261#0" expanded="true" />
-            <element signature="e#2298#2299#0" expanded="true" />
-            <element signature="e#2346#2347#0" expanded="true" />
-            <element signature="e#2386#2387#0" expanded="true" />
-            <element signature="e#2434#2435#0" expanded="true" />
-            <element signature="e#2474#2475#0" expanded="true" />
-            <element signature="e#2509#2510#0" expanded="true" />
-            <element signature="e#2540#2541#0" expanded="true" />
-            <element signature="e#2588#2589#0" expanded="true" />
-            <element signature="e#2628#2629#0" expanded="true" />
-            <element signature="e#2661#2662#0" expanded="true" />
-            <element signature="e#2690#2691#0" expanded="true" />
-            <element signature="e#2734#2735#0" expanded="true" />
-            <element signature="e#2770#2771#0" expanded="true" />
-            <element signature="e#2806#2807#0" expanded="true" />
-            <element signature="e#2834#2835#0" expanded="true" />
-            <element signature="e#2880#2881#0" expanded="true" />
-            <element signature="e#2914#2915#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/HrRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-          <folding>
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/JobLevel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#JobLevel#0;class#JobLevel#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/Appraise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
-          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-          <folding>
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/model/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/mapper/mapper.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/mapper/src/test/java/AdjustSalaryMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/AppraiseMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        <state relative-caret-position="492">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/web/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/vhr2server/service/src/main/java/com/youkeda/vhr2/service/JobLevelService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        <state relative-caret-position="400">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
+            <element signature="method#addJobLevel#0;class#JobLevelService#0" />
+            <element signature="method#updateJobLevelById#0;class#JobLevelService#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="dbSrc:///c4338b9e/fafec20d-c751-4ebc-8547-12b9cc16245a/schema/vhr/routine/deletedep@(int(11)).sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="dbSrc:///c4338b9e/fafec20d-c751-4ebc-8547-12b9cc16245a/schema/vhr/routine/adddep@(varchar(32),int(11),tinyint(1)).sql">
+    <entry file="file://$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/EmployeeRemoveMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        <state relative-caret-position="345">
+          <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/AppraiseMapper.xml">
+    <entry file="file://$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/PoliticsStatusMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1449">
-          <caret line="5" column="56" lean-forward="true" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://fafec20d-c751-4ebc-8547-12b9cc16245a/schema/vhr/table/department">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/DepartmentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/DepartmentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/AdjustSalaryMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/AdjustSalary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding>
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/EmployeeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-61">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/EmployeeEcMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="73" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/AdjustSalaryMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/EmployeeEcMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vhr2server/web/src/test/java/com/youkeda/vhr2/WebApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="115">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+        <state relative-caret-position="414">
+          <caret line="228" column="16" selection-start-line="228" selection-start-column="16" selection-end-line="228" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1593#1594#0" expanded="true" />
-            <element signature="e#1618#1619#0" expanded="true" />
-            <element signature="e#1655#1656#0" expanded="true" />
-            <element signature="e#1683#1684#0" expanded="true" />
-            <element signature="e#1714#1715#0" expanded="true" />
-            <element signature="e#1741#1742#0" expanded="true" />
-            <element signature="e#1781#1782#0" expanded="true" />
-            <element signature="e#1813#1814#0" expanded="true" />
-            <element signature="e#1846#1847#0" expanded="true" />
-            <element signature="e#1875#1876#0" expanded="true" />
-            <element signature="e#1919#1920#0" expanded="true" />
-            <element signature="e#1955#1956#0" expanded="true" />
-            <element signature="e#1988#1989#0" expanded="true" />
-            <element signature="e#2019#2020#0" expanded="true" />
-            <element signature="e#2065#2066#0" expanded="true" />
-            <element signature="e#2105#2106#0" expanded="true" />
-            <element signature="e#2138#2139#0" expanded="true" />
-            <element signature="e#2167#2168#0" expanded="true" />
-            <element signature="e#2211#2212#0" expanded="true" />
-            <element signature="e#2247#2248#0" expanded="true" />
-            <element signature="e#2281#2282#0" expanded="true" />
-            <element signature="e#2311#2312#0" expanded="true" />
-            <element signature="e#2357#2358#0" expanded="true" />
-            <element signature="e#2395#2396#0" expanded="true" />
-            <element signature="e#2431#2432#0" expanded="true" />
-            <element signature="e#2462#2463#0" expanded="true" />
-            <element signature="e#2511#2512#0" expanded="true" />
-            <element signature="e#2551#2552#0" expanded="true" />
-            <element signature="e#2589#2590#0" expanded="true" />
-            <element signature="e#2623#2624#0" expanded="true" />
-            <element signature="e#2677#2678#0" expanded="true" />
-            <element signature="e#2723#2724#0" expanded="true" />
-            <element signature="e#2760#2761#0" expanded="true" />
-            <element signature="e#2792#2793#0" expanded="true" />
-            <element signature="e#2843#2844#0" expanded="true" />
-            <element signature="e#2885#2886#0" expanded="true" />
-            <element signature="e#2917#2918#0" expanded="true" />
-            <element signature="e#2945#2946#0" expanded="true" />
-            <element signature="e#2987#2988#0" expanded="true" />
-            <element signature="e#3021#3022#0" expanded="true" />
-            <element signature="e#3053#3054#0" expanded="true" />
-            <element signature="e#3081#3082#0" expanded="true" />
-            <element signature="e#3123#3124#0" expanded="true" />
-            <element signature="e#3157#3158#0" expanded="true" />
-            <element signature="e#3191#3192#0" expanded="true" />
-            <element signature="e#3221#3222#0" expanded="true" />
-            <element signature="e#3267#3268#0" expanded="true" />
-            <element signature="e#3305#3306#0" expanded="true" />
-            <element signature="e#3345#3346#0" expanded="true" />
-            <element signature="e#3380#3381#0" expanded="true" />
-            <element signature="e#3437#3438#0" expanded="true" />
-            <element signature="e#3485#3486#0" expanded="true" />
-            <element signature="e#3523#3524#0" expanded="true" />
-            <element signature="e#3556#3557#0" expanded="true" />
-            <element signature="e#3609#3610#0" expanded="true" />
-            <element signature="e#3653#3654#0" expanded="true" />
-            <element signature="e#3686#3687#0" expanded="true" />
-            <element signature="e#3714#3715#0" expanded="true" />
-            <element signature="e#3757#3758#0" expanded="true" />
-            <element signature="e#3791#3792#0" expanded="true" />
-            <element signature="e#3828#3829#0" expanded="true" />
-            <element signature="e#3861#3862#0" expanded="true" />
-            <element signature="e#3913#3914#0" expanded="true" />
-            <element signature="e#3957#3958#0" expanded="true" />
-            <element signature="e#3996#3997#0" expanded="true" />
-            <element signature="e#4031#4032#0" expanded="true" />
-            <element signature="e#4087#4088#0" expanded="true" />
-            <element signature="e#4135#4136#0" expanded="true" />
-            <element signature="e#4171#4172#0" expanded="true" />
-            <element signature="e#4203#4204#0" expanded="true" />
-            <element signature="e#4253#4254#0" expanded="true" />
-            <element signature="e#4295#4296#0" expanded="true" />
-            <element signature="e#4328#4329#0" expanded="true" />
-            <element signature="e#4357#4358#0" expanded="true" />
-            <element signature="e#4401#4402#0" expanded="true" />
-            <element signature="e#4437#4438#0" expanded="true" />
-            <element signature="e#4471#4472#0" expanded="true" />
-            <element signature="e#4503#4504#0" expanded="true" />
-            <element signature="e#4551#4552#0" expanded="true" />
-            <element signature="e#4593#4594#0" expanded="true" />
-            <element signature="e#4629#4630#0" expanded="true" />
-            <element signature="e#4661#4662#0" expanded="true" />
-            <element signature="e#4711#4712#0" expanded="true" />
-            <element signature="e#4753#4754#0" expanded="true" />
-            <element signature="e#4786#4787#0" expanded="true" />
-            <element signature="e#4815#4816#0" expanded="true" />
-            <element signature="e#4859#4860#0" expanded="true" />
-            <element signature="e#4895#4896#0" expanded="true" />
-            <element signature="e#4934#4935#0" expanded="true" />
-            <element signature="e#4969#4970#0" expanded="true" />
-            <element signature="e#5025#5026#0" expanded="true" />
-            <element signature="e#5073#5074#0" expanded="true" />
-            <element signature="e#5112#5113#0" expanded="true" />
-            <element signature="e#5149#5150#0" expanded="true" />
-            <element signature="e#5207#5208#0" expanded="true" />
-            <element signature="e#5259#5260#0" expanded="true" />
-            <element signature="e#5295#5296#0" expanded="true" />
-            <element signature="e#5329#5330#0" expanded="true" />
-            <element signature="e#5381#5382#0" expanded="true" />
-            <element signature="e#5427#5428#0" expanded="true" />
-            <element signature="e#5465#5466#0" expanded="true" />
-            <element signature="e#5501#5502#0" expanded="true" />
-            <element signature="e#5557#5558#0" expanded="true" />
-            <element signature="e#5607#5608#0" expanded="true" />
-            <element signature="e#5643#5644#0" expanded="true" />
-            <element signature="e#5677#5678#0" expanded="true" />
-            <element signature="e#5729#5730#0" expanded="true" />
-            <element signature="e#5775#5776#0" expanded="true" />
-            <element signature="e#5810#5811#0" expanded="true" />
-            <element signature="e#5840#5841#0" expanded="true" />
-            <element signature="e#5887#5888#0" expanded="true" />
-            <element signature="e#5925#5926#0" expanded="true" />
-            <element signature="e#5958#5959#0" expanded="true" />
-            <element signature="e#5987#5988#0" expanded="true" />
-            <element signature="e#6031#6032#0" expanded="true" />
-            <element signature="e#6067#6068#0" expanded="true" />
-            <element signature="e#6116#6117#0" expanded="true" />
-            <element signature="e#6153#6154#0" expanded="true" />
-            <element signature="e#6221#6222#0" expanded="true" />
-            <element signature="e#6273#6274#0" expanded="true" />
-            <element signature="e#6314#6315#0" expanded="true" />
-            <element signature="e#6347#6348#0" expanded="true" />
-            <element signature="e#6403#6404#0" expanded="true" />
-            <element signature="e#6447#6448#0" expanded="true" />
-            <element signature="e#6484#6485#0" expanded="true" />
-            <element signature="e#6515#6516#0" expanded="true" />
-            <element signature="e#6565#6566#0" expanded="true" />
-            <element signature="e#6605#6606#0" expanded="true" />
-            <element signature="e#6642#6643#0" expanded="true" />
-            <element signature="e#6673#6674#0" expanded="true" />
-            <element signature="e#6723#6724#0" expanded="true" />
-            <element signature="e#6763#6764#0" expanded="true" />
-            <element signature="e#6796#6797#0" expanded="true" />
-            <element signature="e#6825#6826#0" expanded="true" />
-            <element signature="e#6869#6870#0" expanded="true" />
-            <element signature="e#6905#6906#0" expanded="true" />
+            <element signature="e#5013#5014#0" expanded="true" />
+            <element signature="e#5061#5062#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/intelliJ/.IntelliJIdea2018.2/system/extResources/b36fadae_mybatis-3-mapper.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="174" selection-start-line="174" selection-end-line="174" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/EmployeeMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="113" column="21" lean-forward="true" selection-start-line="113" selection-start-column="21" selection-end-line="113" selection-end-column="21" />
+        <state relative-caret-position="384">
+          <caret line="326" column="31" lean-forward="true" selection-start-line="326" selection-start-column="31" selection-end-line="326" selection-end-column="31" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/EmployeeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/service/src/main/java/com/youkeda/vhr2/service/PoliticsstatusService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/MenuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/MenuRoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/SalaryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/service/src/main/java/com/youkeda/vhr2/service/NationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/service/src/main/java/com/youkeda/vhr2/service/SalaryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/NationMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/service/src/main/java/com/youkeda/vhr2/service/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#addRole#0;class#RoleService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/service/src/main/java/com/youkeda/vhr2/service/HrService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#loadUserByUsername#0;class#HrService#0" />
+            <element signature="method#updateHrRole#0;class#HrService#0" />
+            <element signature="method#getAllHrsExceptCurrentHr#0;class#HrService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/service/src/main/java/com/youkeda/vhr2/service/MenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/config/CustomUrlDecisionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="23" column="70" lean-forward="true" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/config/WebSocketConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/service/src/main/java/com/youkeda/vhr2/service/EmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getEmployeeByPageWithSalary#0;class#EmployeeService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/PositionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/service/src/main/java/com/youkeda/vhr2/service/PositionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/controller/emp/EmployeeBasicController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2176#2177#0" expanded="true" />
+            <element signature="e#2243#2244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/controller/config/SystemConfigController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../apache-Maven/repository/org/springframework/spring-core/5.2.3.RELEASE/spring-core-5.2.3.RELEASE-sources.jar!/org/springframework/util/AntPathMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/config/CustomFilterInvocationSecurityMetadataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1058">
+          <caret line="46" column="13" lean-forward="true" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/config/MySecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="73" column="18" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/controller/salary/SalaryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/controller/salary/SobConfigController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/controller/system/basic/PermissController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/controller/system/basic/PositionController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/controller/converter/DateConverter.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/controller/exception/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/controller/system/HrController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#988#989#0" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
+            <element signature="e#1329#1330#0" expanded="true" />
+            <element signature="e#1377#1378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/converter/DateConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/exception/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/model/src/main/java/com/youkeda/vhr2/model/ResponseBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="method#ResponseBean#1;class#ResponseBean#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbSrc:///c4338b9e/fafec20d-c751-4ebc-8547-12b9cc16245a/schema/vhr/routine/deletedepartment@(int(11)).sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/service/src/main/java/com/youkeda/vhr2/service/DepartmentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/DepartmentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1792">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/controller/system/basic/JobLevelController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/mapper/src/main/java/com/youkeda/vhr2/mapper/DepartmentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vhr2server/web/src/main/java/com/youkeda/vhr2/controller/system/basic/DepartmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>@types/requirejs</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>service</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.6306761" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

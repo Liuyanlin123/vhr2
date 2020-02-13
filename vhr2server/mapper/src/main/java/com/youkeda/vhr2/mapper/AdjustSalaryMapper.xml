@@ -13,74 +13,71 @@
 
 
     <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer">
-        select id, eid, asDate, beforeSalary, afterSalary, reason, remark from adjustsalary
+        select id, eid, asDate, beforeSalary, afterSalary, reason, remark
+        from adjustsalary
         where id = #{id}
     </select>
 
-    <insert id="insert" parameterType="com.youkeda.vhr2.model.AdjustSalary" >
-        insert into adjustsalary (id, eid, asDate,
-                                  beforeSalary, afterSalary, reason,
-                                  remark)
-        values (#{id}, #{eid}, #{adjustSalaryDate},
-                #{beforeSalary}, #{afterSalary}, #{reason},
-                #{remark})
+    <insert id="insert" parameterType="com.youkeda.vhr2.model.AdjustSalary">
+        insert into adjustsalary (id, eid, asDate, beforeSalary, afterSalary, reason, remark)
+        values (#{id}, #{eid}, #{adjustSalaryDate}, #{beforeSalary}, #{afterSalary}, #{reason}, #{remark})
     </insert>
 
-    <insert id="insertSelective" parameterType="com.youkeda.vhr2.model.AdjustSalary" >
+    <insert id="insertSelective" parameterType="com.youkeda.vhr2.model.AdjustSalary">
         insert into adjustsalary
-        <trim prefix="(" suffix=")" suffixOverrides="," >
-            <if test="id != null" >id,</if>
-            <if test="eid != null" > eid,</if>
-            <if test="adjustSalaryDate != null" >asDate,</if>
-            <if test="beforeSalary != null" >beforeSalary,</if>
-            <if test="afterSalary != null" >afterSalary,</if>
-            <if test="reason != null" >reason,</if>
-            <if test="remark != null" >remark,</if>
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">id,</if>
+            <if test="eid != null">eid,</if>
+            <if test="adjustSalaryDate != null">asDate,</if>
+            <if test="beforeSalary != null">beforeSalary,</if>
+            <if test="afterSalary != null">afterSalary,</if>
+            <if test="reason != null">reason,</if>
+            <if test="remark != null">remark,</if>
         </trim>
-        <trim prefix="values (" suffix=")" suffixOverrides="," >
-            <if test="id != null" >#{id},</if>
-            <if test="eid != null" >#{eid},</if>
-            <if test="adjustSalaryDate != null" >#{adjustSalaryDate},</if>
-            <if test="beforeSalary != null" >#{beforesalary},</if>
-            <if test="afterSalary != null" >#{aftersalary},</if>
-            <if test="reason != null" >#{reason},</if>
-            <if test="remark != null" >#{remark},</if>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id != null">#{id},</if>
+            <if test="eid != null">#{eid},</if>
+            <if test="adjustSalaryDate != null">#{adjustSalaryDate},</if>
+            <if test="beforeSalary != null">#{beforesalary},</if>
+            <if test="afterSalary != null">#{aftersalary},</if>
+            <if test="reason != null">#{reason},</if>
+            <if test="remark != null">#{remark},</if>
         </trim>
     </insert>
 
-    <update id="updateByPrimaryKeySelective" parameterType="com.youkeda.vhr2.model.AdjustSalary" >
+    <update id="updateByPrimaryKeySelective" parameterType="com.youkeda.vhr2.model.AdjustSalary">
         update adjustsalary
-        <set >
-            <if test="eid != null" >
+        <set>
+            <if test="eid != null">
                 eid = #{eid,jdbcType=INTEGER},
             </if>
-            <if test="adjustSalaryDate != null" >
+            <if test="adjustSalaryDate != null">
                 asDate = #{adjustSalaryDate,jdbcType=DATE},
             </if>
-            <if test="beforeSalary != null" >
+            <if test="beforeSalary != null">
                 beforeSalary = #{beforeSalary,jdbcType=INTEGER},
             </if>
-            <if test="afterSalary != null" >
+            <if test="afterSalary != null">
                 afterSalary = #{afterSalary,jdbcType=INTEGER},
             </if>
-            <if test="reason != null" >
+            <if test="reason != null">
                 reason = #{reason,jdbcType=VARCHAR},
             </if>
-            <if test="remark != null" >
+            <if test="remark != null">
                 remark = #{remark,jdbcType=VARCHAR},
             </if>
         </set>
         where id = #{id,jdbcType=INTEGER}
     </update>
 
-    <update id="updateByPrimaryKey" parameterType="com.youkeda.vhr2.model.AdjustSalary" >
+    <update id="updateByPrimaryKey" parameterType="com.youkeda.vhr2.model.AdjustSalary">
         update adjustsalary
-        set eid = #{eid,jdbcType=INTEGER},
-            asDate = #{adjustSalaryDate,jdbcType=DATE},
+        set eid          = #{eid,jdbcType=INTEGER},
+            asDate       = #{adjustSalaryDate,jdbcType=DATE},
             beforeSalary = #{beforeSalary,jdbcType=INTEGER},
-            afterSalary = #{afterSalary,jdbcType=INTEGER},
-            reason = #{reason,jdbcType=VARCHAR},
-            remark = #{remark,jdbcType=VARCHAR}
+            afterSalary  = #{afterSalary,jdbcType=INTEGER},
+            reason       = #{reason,jdbcType=VARCHAR},
+            remark       = #{remark,jdbcType=VARCHAR}
         where id = #{id,jdbcType=INTEGER}
     </update>
 </mapper>

@@ -16,39 +16,46 @@
     </resultMap>
 
     <select id="getAllDepartmentsWithOutChildren" resultMap="BaseResultMap">
-        select
-        id, name, parentId, depPath, enabled, isParent
+        select id, name, parentId, depPath, enabled, isParent
         from department;
     </select>
     <select id="addDepartment" statementType="CALLABLE">
         call addDepartment(#{name,mode=IN,jdbcType=VARCHAR},
-                    #{parentId,mode=IN,jdbcType=INTEGER},
-                    #{enabled,mode=IN,jdbcType=BOOLEAN},
-                    #{result,mode=OUT,jdbcType=INTEGER},
-                    #{id,mode=OUT,jdbcType=INTEGER})
+                           #{parentId,mode=IN,jdbcType=INTEGER},
+                           #{enabled,mode=IN,jdbcType=BOOLEAN},
+                           #{result,mode=OUT,jdbcType=INTEGER},
+                           #{id,mode=OUT,jdbcType=INTEGER})
     </select>
-    <select id="deleteDepById" statementType="CALLABLE">
+    <select id="deleteDepartmentById" statementType="CALLABLE">
         call deleteDepartment(#{id,mode=IN,jdbcType=INTEGER},
                               #{result,mode=OUT,jdbcType=INTEGER})
     </select>
     <select id="getAllDepartmentsByParentId" resultMap="DepartmentWithChildren">
-        select * from department where parentId=#{pid};
+        select *
+        from department
+        where parentId = #{pid};
+    </select>
+    <select id="getAllDepartments" resultMap="DepartmentWithChildren">
+        select * from department
     </select>
     <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer">
-        select
-        id, name, parentId, depPath, enabled, isParent
+        select id, name, parentId, depPath, enabled, isParent
         from department
         where id = #{id,jdbcType=INTEGER}
     </select>
     <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
-        delete from department
+        delete
+        from department
         where id = #{id,jdbcType=INTEGER}
     </delete>
     <insert id="insert" parameterType="com.youkeda.vhr2.model.Department">
-        insert into department (id, name, parentId,
-                                depPath, enabled, isParent)
-        values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{parentId,jdbcType=INTEGER},
-                #{depPath,jdbcType=VARCHAR}, #{enabled,jdbcType=BIT}, #{isParent,jdbcType=BIT})
+        insert into department (id, name, parentId, depPath, enabled, isParent)
+        values (#{id,jdbcType=INTEGER},
+                #{name,jdbcType=VARCHAR},
+                #{parentId,jdbcType=INTEGER},
+                #{depPath,jdbcType=VARCHAR},
+                #{enabled,jdbcType=BIT},
+                #{isParent,jdbcType=BIT})
     </insert>
 
     <insert id="insertSelective" parameterType="com.youkeda.vhr2.model.Department">
@@ -117,10 +124,10 @@
     </update>
     <update id="updateByPrimaryKey" parameterType="com.youkeda.vhr2.model.Department">
         update department
-        set name = #{name,jdbcType=VARCHAR},
+        set name     = #{name,jdbcType=VARCHAR},
             parentId = #{parentId,jdbcType=INTEGER},
-            depPath = #{depPath,jdbcType=VARCHAR},
-            enabled = #{enabled,jdbcType=BIT},
+            depPath  = #{depPath,jdbcType=VARCHAR},
+            enabled  = #{enabled,jdbcType=BIT},
             isParent = #{isParent,jdbcType=BIT}
         where id = #{id,jdbcType=INTEGER}
     </update>

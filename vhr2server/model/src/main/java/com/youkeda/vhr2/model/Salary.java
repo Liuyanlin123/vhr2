@@ -8,15 +8,15 @@ public class Salary {
     private Long id;
 
     private Integer basicSalary;
-//奖金
+    //奖金
     private Integer bonus;
-//餐补
+    //餐补
     private Integer lunchSalary;
-//出差补贴
+    //出差补贴
     private Integer trafficSalary;
 
     private Integer allSalary;
-//养老金
+    //养老金
     private Integer pensionBase;
 
     private Float pensionPer;

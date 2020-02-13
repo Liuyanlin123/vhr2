@@ -1,12 +1,9 @@
 package com.youkeda.vhr2;
 
-import com.youkeda.vhr2.mapper.AdjustSalaryMapper;
-import com.youkeda.vhr2.mapper.AppraiseMapper;
-import com.youkeda.vhr2.mapper.DepartmentMapper;
-import com.youkeda.vhr2.mapper.EmployeeEcMapper;
-import com.youkeda.vhr2.model.AdjustSalary;
+import com.google.gson.Gson;
+import com.youkeda.vhr2.mapper.*;
 import com.youkeda.vhr2.model.Department;
-import com.youkeda.vhr2.model.EmployeeEc;
+import com.youkeda.vhr2.service.DepartmentService;
 import org.junit.jupiter.api.Test;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,22 +15,25 @@ import java.util.List;
 @MapperScan(basePackages = "com.youkeda.vhr2.mapper")
 class WebApplicationTests {
 
-    @Autowired
-    AdjustSalaryMapper adjustSalaryMapper;
 
     @Autowired
-    AppraiseMapper appraiseMapper;
+    HrMapper hrMapper;
 
     @Autowired
-    DepartmentMapper departmentMapper;
+    DepartmentService departmentService;
 
-    @Autowired
-    EmployeeEcMapper employeeEcMapper;
 
     @Test
     void contextLoads() {
-        EmployeeEc employeeEc = employeeEcMapper.selectByPrimaryKey(1);
-
+        List<Department> departments = departmentService.getAllDepartments();
+        for (Department department : departments) {
+            System.out.println(department.getName());
+            List<Department> childDepartments = department.getChildren();
+            for (Department childDepartment : childDepartments) {
+                System.out.print(childDepartment.getName()+" ");
+            }
+            System.out.println("___________________");
+        }
     }
 
 }

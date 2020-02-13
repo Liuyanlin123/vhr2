@@ -2,10 +2,12 @@ package com.youkeda.vhr2.mapper;
 
 import com.youkeda.vhr2.model.Employee;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
 import java.util.Date;
 import java.util.List;
 
+@Repository
 public interface EmployeeMapper {
     int deleteByPrimaryKey(Integer id);
 
@@ -19,9 +21,12 @@ public interface EmployeeMapper {
 
     int updateByPrimaryKey(Employee record);
 
-    List<Employee> getEmployeeByPage(@Param("page") Integer page, @Param("size") Integer size, @Param("emp") Employee employee, @Param("beginDateScope") Date[] beginDateScope);
+    List<Employee> getEmployeeByPage(@Param("page") Integer page,
+                                     @Param("size") Integer size,
+                                     @Param("emp") Employee employee,
+                                     @Param("beginDateScope") Date[] beginDateScope);
 
-    Long getTotal(@Param("emp") Employee employee,@Param("beginDateScope") Date[] beginDateScope);
+    Long getTotal(@Param("emp") Employee employee, @Param("beginDateScope") Date[] beginDateScope);
 
     Integer maxWorkID();
 

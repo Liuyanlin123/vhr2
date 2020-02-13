@@ -66,8 +66,9 @@ public class Hr implements UserDetails {
 
     @Override
     public boolean isEnabled() {
-        return true;
+        return enabled;
     }
+
 
     public Integer getId() {
         return id;
@@ -109,10 +110,6 @@ public class Hr implements UserDetails {
         this.address = address;
     }
 
-    public Boolean getEnabled() {
-        return enabled;
-    }
-
     public void setEnabled(Boolean enabled) {
         this.enabled = enabled;
     }
@@ -148,4 +145,6 @@ public class Hr implements UserDetails {
     public void setRoles(List<Role> roles) {
         this.roles = roles;
     }
+
+
 }

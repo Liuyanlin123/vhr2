@@ -14,6 +14,7 @@ public class PoliticsStatus implements Serializable {
         PoliticsStatus that = (PoliticsStatus) o;
         return Objects.equals(name, that.name);
     }
+
     @Override
     public int hashCode() {
 

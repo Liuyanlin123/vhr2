@@ -26,4 +26,6 @@ public interface DepartmentMapper {
     void deleteDepartmentById(Department dep);
 
     List<Department> getAllDepartmentsWithOutChildren();
+
+    List<Department> getAllDepartments();
 }
